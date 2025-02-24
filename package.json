@@ -1,0 +1,17 @@
+{
+  "name": "youtubeautolike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "initialize repo": "npm ci",
+    "vite build": "npx vite build -c vite.config.js",
+    "vite watch": "npx vite build -c vite.config.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
