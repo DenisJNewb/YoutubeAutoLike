@@ -9,7 +9,11 @@ export async function clickLikeAsync() {
     "#subscribe-button"
   );
 
-  if (subscribeButton.innerText.toLocaleLowerCase() == "подписаться") {
+  if (
+    subscribeButton.innerText.toLocaleLowerCase() == "подписаться" ||
+    (subscribeButton.innerText.toLocaleLowerCase() !== "вы подписаны" &&
+      subscribeButton.innerText.toLocaleLowerCase() !== "")
+  ) {
     console.log("нет подписки");
     return;
   }
